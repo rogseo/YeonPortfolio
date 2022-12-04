@@ -33,7 +33,7 @@ export const projects = [
       title: "Weather Dashboard",
       subtitle: "React Hooks",
       description:"I can see the current and future weather forecast by searching city that I want to see.",
-      image: 'Project Tracker.gif',
+      image: 'Project Tracker.GIF',
       link: "https://rogseo.github.io/weatherDashboard/",
       repo:"https://github.com/rogseo/weatherDashboard",
       tech: ['HTML','Javascript','API','CSS']
@@ -51,7 +51,7 @@ export const projects = [
       title: "Timer Quiz",
       subtitle: "React Hooks",
       description:"This App will ask 5 questions with 4 options of answers. The time is given for 75s and score is equal to the time left. When you answer incorrectly, time is subtracted 10s from the clock. When you finish all questions, you are presented with a score and you can save your initial and score. You can gauge your progress compared to my peers.",
-      image: 'Code Quiz.gif',
+      image: 'Code Quiz.GIF',
       link: "https://github.com/rogseo/codeQuiz",
       repo:"https://rogseo.github.io/codeQuiz/",
       tech:['HTML','Javascript','CSS','Bootstrap']
