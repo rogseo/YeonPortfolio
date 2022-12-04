@@ -47,7 +47,7 @@ export default function Project() {
                   </div>
 
                 </div>
-                <div id='project-image' className='z-0 hover:z-50 bg-green flex absolute  right-0 top-0 h-100'>
+                <div id='project-image' className='z-0 bg-green flex absolute  right-0 top-0 h-100'>
                      <img
                     alt="gallery"
                     className="inset-0 w-full h-full object-cover border border-1 border-green object-center opacity-70 hover:opacity-100"
