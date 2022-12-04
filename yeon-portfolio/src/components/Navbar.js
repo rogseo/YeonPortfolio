@@ -9,7 +9,7 @@ function Navbar({ currentPage, handlePageChange }) {
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'font-bold text-3xl text-light-gray' : 'font-extrabold text-3xl text-white'}
+          className={currentPage === 'About' ? 'font-bold text-3xl text-green' : 'font-extrabold text-3xl text-white'}
         >
           Yeon Seo
         </a>
@@ -22,7 +22,7 @@ function Navbar({ currentPage, handlePageChange }) {
               onClick={() => handlePageChange('Project')}
               //  TODO: Add a comment explaining what this logic is doing
 
-              className={currentPage === 'Project' ? 'text-bold text-2xl text-light-gray' : 'text-2xl text-white'}
+              className={currentPage === 'Project' ? 'text-bold text-2xl text-green' : 'text-2xl text-white'}
               
             >
               Project
@@ -34,7 +34,7 @@ function Navbar({ currentPage, handlePageChange }) {
               //  TODO: Add a comment explaining what this logic is doing
 
               onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'text-2xl text-bold text-light-gray' : 'text-2xl text-white'}
+              className={currentPage === 'Contact' ? 'text-2xl text-bold text-green' : 'text-2xl text-white'}
             >
               Contact
             </a>
@@ -44,7 +44,7 @@ function Navbar({ currentPage, handlePageChange }) {
               href="https://drive.google.com/file/d/1FfE7Lr6Ah5sQmJqqJN6imefjRdFjwXEz/view?usp=sharing"
               // onClick={() =>handlePageChange('Resume')}
  
-              className={currentPage === 'Resume' ? 'text-2xl text-bold text-light-gray' : 'text-2xl text-white'}
+              className={currentPage === 'Resume' ? 'text-2xl text-bold text-green' : 'text-2xl text-white'}
             >
               Resume
             </a>

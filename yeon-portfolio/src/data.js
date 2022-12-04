@@ -5,7 +5,6 @@ export const projects = [
       title: "tuneTalk",
       subtitle: "MERN Stack",
       description:"A web application enables users to share and discuss their favorite music with spotify player embedded.",
-      // image: './images/tuneTalk demo_edit.gif',
       image:'tuneTalk demo_edit.gif',
       link: "https://immense-meadow-73808.herokuapp.com/",
       repo : "https://github.com/drewsparker/tuneTalk",
