@@ -1,10 +1,11 @@
 import React from 'react';
+import '../index.css';
+
 
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav class="flex justify-between bg-black text-white w-screen">
-      <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+      <nav class="px-5 xl:px-12 py-6 bg-black flex flex-row w-full items-center  font-Concert"  >
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -40,16 +41,17 @@ function Navbar({ currentPage, handlePageChange }) {
           </li>
           <li className="title-font font-medium text-white mb-4 md:mb-0 hover:text-green">
             <a
-              href="#Resume"
-              onClick={() => handlePageChange('Resume')}
+              href="https://drive.google.com/file/d/1FfE7Lr6Ah5sQmJqqJN6imefjRdFjwXEz/view?usp=sharing"
+              // onClick={() =>handlePageChange('Resume')}
+ 
               className={currentPage === 'Resume' ? 'text-2xl text-bold text-light-gray' : 'text-2xl text-white'}
             >
               Resume
             </a>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+
   );
 }
 
