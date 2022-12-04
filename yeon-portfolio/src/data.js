@@ -32,7 +32,7 @@ export const projects = [
       title: "Weather Dashboard",
       subtitle: "React Hooks",
       description:"I can see the current and future weather forecast by searching city that I want to see.",
-      image: 'Project Tracker.GIF',
+      image: 'Project Tracker.gif',
       link: "https://rogseo.github.io/weatherDashboard/",
       repo:"https://github.com/rogseo/weatherDashboard",
       tech: ['HTML','Javascript','API','CSS']
