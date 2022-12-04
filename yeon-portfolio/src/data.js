@@ -41,7 +41,7 @@ export const projects = [
       title: "Password Generator",
       subtitle: "React Hooks",
       description:"When you sign up, you are asked to create a password and the criteria is all different. I want to randomly generate a password that meets certain criteria on my choice.",
-      image: 'Password Generator.GIF',
+      image: 'Password Generator.gif',
       link: "https://rogseo.github.io/passwordGenerator/",
       repo:"https://github.com/rogseo/passwordGenerator",
       tech:['HTML','Javascript','CSS', 'Bootstrap']
