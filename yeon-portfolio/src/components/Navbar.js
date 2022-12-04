@@ -41,7 +41,7 @@ function Navbar({ currentPage, handlePageChange }) {
           </li>
           <li className="title-font font-medium text-white mb-4 md:mb-0 hover:text-green">
             <a
-              href="https://drive.google.com/file/d/1FfE7Lr6Ah5sQmJqqJN6imefjRdFjwXEz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1W6LEMwQuvx5FRAu0B6Iidbwe9nJ_Lort/view?usp=sharing"
               // onClick={() =>handlePageChange('Resume')}
  
               className={currentPage === 'Resume' ? 'text-2xl text-bold text-green' : 'text-2xl text-white'}
