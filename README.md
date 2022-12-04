@@ -59,7 +59,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Link
 [Deployed Link](https://rogseo.github.io/YeonPortfolio)
 
-# Credit
+## Credit
 * inspiration : https://www.freecodecamp.org/news/build-portfolio-website-react/
 * https://tailwindcss.com/
 
