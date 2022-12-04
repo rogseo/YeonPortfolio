@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YeonPortfolio/static/css/main.c62458f2.css",
+    "main.js": "/YeonPortfolio/static/js/main.ddd1f718.js",
+    "static/media/mypicture.png": "/YeonPortfolio/static/media/mypicture.ea878875c2bea089167f.png",
+    "static/media/git.png": "/YeonPortfolio/static/media/git.7f7be2e416adaf72e816.png",
+    "index.html": "/YeonPortfolio/index.html",
+    "main.c62458f2.css.map": "/YeonPortfolio/static/css/main.c62458f2.css.map",
+    "main.ddd1f718.js.map": "/YeonPortfolio/static/js/main.ddd1f718.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c62458f2.css",
+    "static/js/main.ddd1f718.js"
+  ]
+}
