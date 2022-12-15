@@ -51,7 +51,7 @@ export default function Project() {
                      <img
                     alt="gallery"
                     className="inset-0 w-full h-full object-cover border border-1 border-green object-center opacity-70 hover:opacity-100"
-                     src={"./" + project.image}
+                     src={project.image}
                     
                      //src={img}
                    />
