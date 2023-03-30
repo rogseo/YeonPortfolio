@@ -22,13 +22,24 @@ export default function Project() {
           </div>
           <ul className="flex flex-col -m-4 mt-5 shadow-md">
             {projects.map((project) => (
-              <li className='relative flex flex-row h-96 item-center mb-3 min-h-fit'>
-                
+              <li className='relative flex flex-row justify-center item-center mb-10 min-h-fit'>
+
                 <div id="project-content" className='w-2/3 z-10 mr-3'>
                   <div className='flex flex-col' >
                     <h3 className='text-light-green text-3xl text-left mb-2'>
                       <a className='font-mono font-extrabold text-green text-extrabold hover:text-light-green' href={project.link} >{project.title}</a>
                     </h3>
+                    <div id='project-image' className='z-0 bg-green flex'>
+                      <img
+                        alt="gallery"
+                        className="inset-0 w-full h-full object-cover border border-1 border-green object-center"
+                        src={project.image}
+
+                      //src={img}
+                      />
+
+                    </div>
+
                     <div id='project-description ' className='text-left bg-black text-light-gray p-5 mb-2'>
                       <p className='font-Noto'>{project.description}</p>
                     </div>
@@ -46,18 +57,21 @@ export default function Project() {
                     </div>
                   </div>
 
-                </div>
-                <div id='project-image' className='z-0 bg-green flex absolute  right-0 top-0 h-100'>
-                     <img
-                    alt="gallery"
-                    className="inset-0 w-full h-full object-cover border border-1 border-green object-center opacity-70 hover:opacity-100"
-                     src={project.image}
-                    
-                     //src={img}
-                   />
+
 
                 </div>
-                
+                {/* <div id='project-image' className='z-0 bg-green flex absolute  right-0 top-0 h-100'>
+                <div id='project-image' className='z-0 bg-green flex'>
+                  <img
+                    alt="gallery"
+                    className="inset-0 w-full h-full object-cover border border-1 border-green object-center opacity-70 hover:opacity-100"
+                    src={project.image}
+
+                  //src={img}
+                  />
+
+                </div> */}
+
               </li>
 
 
