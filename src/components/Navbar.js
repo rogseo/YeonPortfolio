@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import avatarImg from '../images/mypicture.png'
 
 
 
@@ -9,9 +10,13 @@ function Navbar({ currentPage, handlePageChange }) {
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'font-bold text-3xl text-green' : 'font-extrabold text-3xl text-white'}
+          className={currentPage === 'About' ? 'font-bold text-3xl text-green flex' : 'font-extrabold text-3xl text-white flex'}
         >
-          Yeon Seo
+          <img className='self-center rounded-full'
+            width={70}
+            alt="profile image"
+            src={avatarImg}
+          /><p className='self-center'>Yeon Seo</p>
         </a>
 
 

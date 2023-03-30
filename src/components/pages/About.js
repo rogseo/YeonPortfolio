@@ -1,23 +1,26 @@
 import React from 'react';
-import img from '../../images/mypicture.png'
+import img from '../../images/profile.JPG'
+import avatarImg from '../../images/mypicture.png'
 
 export default function About() {
   return (
     <section id="about">
       <div className="container mt-5 flex flex-col px-10 py-20 justify-center ">
+    
         <h1 className=" sm:text-2xl text-left font-mono  mb-4 font-medium text-green ">
           Hello, my name is
         </h1>
         <h2  className="sm:text-6xl text-left font-Concert  mb-4 font-medium text-light-green" >
             Yeon Seo.
         </h2>
+        
+       
         <h2  className="sm:text-6xl text-left font-Concert  mb-4 font-medium text-light-gray" >
-            I build things for the web.
+            I build things for the web and mobile.
         </h2>
-        <img className='self-center'
-            width={171}
-            height={180}
-            alt="171x180"
+        <img className='self-center rounded-full'
+            width={300}
+            alt="profile image"
             src={img}
           />
         <p className="mb-8 leading-relaxed text-light-gray font-Noto">

@@ -57,7 +57,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Link
-[Deployed Link](https://rogseo.github.io/YeonPortfolio)
+[Deployed Link](https://yeon-portfoilo-2023.herokuapp.com/)
 
 ## Credit
 * inspiration : https://www.freecodecamp.org/news/build-portfolio-website-react/
