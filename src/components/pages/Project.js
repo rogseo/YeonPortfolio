@@ -9,7 +9,7 @@ import Footer from "../Footer";
 export default function Project() {
   return (
     <div>
-      <section id="projects" className="text-gray-400 body-font">
+      <section id="projects" className="text-gray-400 ml-[200px] body-font">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
           <div className="flex flex-col w-full mb-20">
 
@@ -107,7 +107,7 @@ export default function Project() {
         </div>
 
       </section>
-      <Footer />
+  
     </div>
 
   );

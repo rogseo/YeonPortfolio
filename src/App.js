@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray body-font">
+    <main className="text-gray-400 body-font">
       <Header/>
       <Footer/>
     </main>

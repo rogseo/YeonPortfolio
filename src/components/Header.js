@@ -5,6 +5,8 @@ import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 
+
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -24,7 +26,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='bg-gray md:sticky top-0 z-10'>
+    <div className=''>
       {/* // TODO: Add a comment describing what we are passing as props */}
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // TODO: Add a comment explaining what is happening on the following line */}
