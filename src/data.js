@@ -14,7 +14,7 @@ export const projects = [
     subtitle: "React Native",
     description:"Rabbit is a mobile app that lets you chat with other users and catch up on news and weather.",
     image:rabbit,
-    link: "https://migrate-abroad.herokuapp.com/",
+    link: "https://youtu.be/ADOW6h7ZTv8",
     repo : "https://github.com/rogseo/Rabbit",
     tech : ['ReactNative','MongoDB','SendBird','React','JWT']
   },
@@ -23,8 +23,8 @@ export const projects = [
     subtitle: "MERN Stack",
     description:"This app is designed to provide data on countries and their social performance so users can make informed decisions about where in the world to live.",
     image:migrate,
-    link: "https://youtu.be/ADOW6h7ZTv8",
-    repo : "https://github.com/rogseo/migrate",
+    link: "https://migrate-abroad.herokuapp.com/",
+    repo : "https://github.com/richardjhong/migrate" ,
     tech : ['React','MongoDB','Apollo-server','GreenSocks',]
   },
     {
