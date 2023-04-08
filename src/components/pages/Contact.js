@@ -28,7 +28,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className='text-gray-400 ml-[200px] body-font'>
+    <section id="contact" className='text-gray-400 md:ml-[200px] body-font'>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="container  py-10 mx-auto flex flex-col justify-content-center sm:flex-nowrap flex-wrap">
           <form
@@ -40,7 +40,7 @@ export default function Contact() {
               Get In touch
             </h2>
             <p className=" leading-relaxed mb-5 text-green text-mono">
-              If you have any question, reach out o me.
+              If you have any question, reach out to me.
             </p>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-white">
