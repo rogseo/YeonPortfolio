@@ -35,7 +35,7 @@ export default function Contact() {
             // netlify
             name="contact"
             onSubmit={handleSubmit}
-            className=" flex flex-col w-2/3 md:py-8 mt-8 md:mt-0 justify-self-center">
+            className=" flex flex-col md:py-8 mt-8 md:mt-0 justify-self-center">
             <h2 className="flex-col text-white sm:text-5xl text-4xl mb-1 font-medium font-Concert text-light-green">
               Get In touch
             </h2>
@@ -73,7 +73,7 @@ export default function Contact() {
               Submit
             </button>
           </form>
-          <div className="flex-col w-2/3 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <div className="flex-col mt-3 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
               height="100%"
