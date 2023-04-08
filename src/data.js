@@ -20,7 +20,7 @@ export const projects = [
   },
   {
     title: "Migrate",
-    subtitle: "MERN Stack",
+    subtitle: "React App",
     description:"This app is designed to provide data on countries and their social performance so users can make informed decisions about where in the world to live.",
     image:migrate,
     link: "https://migrate-abroad.herokuapp.com/",
